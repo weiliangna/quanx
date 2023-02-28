@@ -6,7 +6,7 @@
         请勿转载与贩卖！️️️
 *******************************
 [rewrite_local]
-^http[s]?:\/\/((prod)|(fastapi))\.ukids\.cn\/(uch5|ucapp)\/(getUser|sync).*$ url script-response-body ukids.js
+^http[s]?:\/\/((prod)|(fastapi))\.ukids\.cn\/(uch5|ucapp)\/(getUser|sync).*$ url script-response-body https://raw.githubusercontent.com/weiliangna/quanx/main/ukids.js
 [mitm] 
 hostname = *ukids*
 *******************************/
