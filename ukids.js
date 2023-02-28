@@ -1,8 +1,9 @@
 
 /***
+作者：微凉
+软件下载：商店搜索“小小优趣”
 使用声明：️此脚本仅供学习与交流，
         请勿转载与贩卖！️️️
-        软件下载：商店搜索“小小优趣”
 *******************************
 [rewrite_local]
 ^http[s]?:\/\/((prod)|(fastapi))\.ukids\.cn\/(uch5|ucapp)\/(getUser|sync).*$ url script-response-body ukids.js
