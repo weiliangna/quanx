@@ -8,7 +8,7 @@
         请勿转载与贩卖！️️️
 *******************************
 [rewrite_local]
-^http[s]?:\/\/integral2\.dasyibalang\.com\/v2\/User.*$ url script-response-body soul.js
+^http[s]?:\/\/integral2\.dasyibalang\.com\/v2\/User.*$ url script-response-body zhijianshiguang.js
 [mitm] 
 hostname = integral2.dasyibalang.com
 *******************************/
