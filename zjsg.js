@@ -8,7 +8,7 @@
         请勿转载与贩卖！️️️
 *******************************
 [rewrite_local]
-^http[s]?:\/\/integral2\.dasyibalang\.com\/v2\/User.*$ url script-response-body zjsg.js
+^http[s]?:\/\/integral2\.dasyibalang\.com\/v2\/User.*$ url script-response-body https://raw.githubusercontent.com/weiliangna/quanx/main/zjsg.js
 [mitm] 
 hostname = integral2.dasyibalang.com
 *******************************/
